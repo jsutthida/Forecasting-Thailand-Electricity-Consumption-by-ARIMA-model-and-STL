@@ -26,6 +26,7 @@ Dataset:
 
 ## Seasonal and Trend decomposition using Loess (STL)
 Seasonal and Trend decomposition using Loess (STL) is a versatile and robust method for decomposing time series, while Loess is a method for estimating nonlinear relationships.
+
 Applying the STL decomposition to the dataset:
 
 ```
@@ -42,7 +43,7 @@ Figure 1 : The electricity consumption (top) and its three additive components o
 
 ![decomposition](https://github.com/jsutthida/Forecasting-Thailand-Electricity-Consumption-by-STL/assets/160230541/c909c738-e5bc-4d15-b98f-3307ca69b2ed)
 
-There is obviosly that the dataset has positive trend and fixed seasonality.
+There is obviously that the dataset has positive trend and fixed seasonality.
 
 
 ### Robust fitting
