@@ -1,6 +1,6 @@
 # Forecasting Thailand Electricity Consumption by ARIMA model and STL
 
-This project aims to study electricity consumption in Thailand in the past 22 years during 2002 to 2023. First I have downloaded the data from the Energy Policy and Planning office website to a csv file.
+This project aims to study electricity consumption in Thailand (monthly) in the past 22 years during 2002 to 2023. First I have downloaded the data from the Energy Policy and Planning office website to a csv file.
 
 ```
 import pandas as pd
