@@ -5,7 +5,9 @@ This project aims to study electricity consumption in Thailand (monthly) in the 
 ```
 import pandas as pd
 
-data = pd.read_csv('/Users/lune.j/Desktop/project/Thailand_electricity_consumption.csv');data
+data = pd.read_csv('/Users/lune.j/Desktop/project/Thailand_electricity_consumption.csv')
+data
+data['Elec_consump'].describe()
 ```
 Dataset:
 ```
@@ -21,6 +23,15 @@ Dataset:
 2023-10-01		17180
 2023-11-01		16661
 2023-12-01		16149
+
+count      264.000000
+mean     13145.325758
+std       2716.806010
+min       7327.000000
+25%      11012.250000
+50%      13390.000000
+75%      15473.000000
+max      18975.000000
 ```
 
 
@@ -39,7 +50,7 @@ decomposition.plot()
 plt.show()
 ```
 
-Figure 1 : The electricity consumption (top) and its three additive components obtained from a STL decomposition with positive trend and fixed seasonality.
+Figure 1 : The electricity consumption (top) and its three additive components obtained from a STL decomposition.
 
 ![decomposition](https://github.com/jsutthida/Forecasting-Thailand-Electricity-Consumption-by-STL/assets/160230541/c909c738-e5bc-4d15-b98f-3307ca69b2ed)
 
