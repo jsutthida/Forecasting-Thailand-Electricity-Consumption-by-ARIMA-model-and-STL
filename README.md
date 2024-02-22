@@ -163,4 +163,5 @@ Freq: MS, dtype: float64
 
 #### Preference
 Seasonal-Trend decomposition using LOESS (STL) : https://www.statsmodels.org/dev/examples/notebooks/generated/stl_decomposition.html
+
 Forecasting with decomposition : https://otexts.com/fpp2/forecasting-decomposition.html
